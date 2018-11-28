@@ -11,7 +11,10 @@ jdk:
   - openjdk11
   - oraclejdk8
   - oraclejdk11
-    
+
+runtime:
+  nodePool: dynamic__x86_64__CentOS_7__c4_large
+  
 build:
   pre_ci_boot:
     image_name: drydock/c7scaall
